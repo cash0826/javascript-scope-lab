@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2025-09-15T04:33:54.937Z",
-    "end": "2025-09-15T04:34:24.913Z",
-    "duration": 29976
+    "start": "2025-09-16T04:41:06.301Z",
+    "end": "2025-09-16T04:41:37.584Z",
+    "duration": 31283
   },
   "tests": [],
   "pending": [],
@@ -15,11 +15,11 @@
     {
       "title": "\"before all\" hook",
       "fullTitle": "\"before all\" hook",
-      "duration": 29952,
+      "duration": 31261,
       "currentRetry": 0,
       "err": {
-        "stack": "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /mnt/c/Users/melar/Documents/Flatiron/02_SE/javascript-scope-lab/node_modules/jsdom/lib/jsdom.js:312:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)",
-        "message": "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /mnt/c/Users/melar/Documents/Flatiron/02_SE/javascript-scope-lab/node_modules/jsdom/lib/jsdom.js:312:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)",
+        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
       }
     }
   ],
